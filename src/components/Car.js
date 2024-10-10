@@ -16,8 +16,8 @@ function Car(props) {
 
   useEffect(() => {
     // Set scale and position
-    scene.scale.set(2, 2, 2); // Scale the model
-    scene.position.y = 1; // Position above the ground, adjust as needed
+    scene.scale.set(1.6, 1.6, 1.6); // Scale the model
+    scene.position.y = 0.8; // Position above the ground, adjust as needed
     scene.rotation.set(0, Math.PI / 2, 0);
     
     // Traverse the scene to set shadow properties
